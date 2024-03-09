@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+:root{
+
+
+    --fontsize: 20px;
+    --ff: 'Roboto Slab', serif;
+}
+
+
+.navbar{
+
+    background: rgb(37,37,37);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    top: 0;
+    color: rgb(212,212,212);
+    z-index: 1;
+}
+.navbar_logo{
+
+    font-family:var(--ff);
+    font-size:4vw;
+    
+
+}
+
+html, body{
+
+margin:0;
+padding:0;
+background-color:rgb(52,52,52);
+
+}
+
+
+.sidebar{
+
+    width: 20%;
+    background-color:rgb(77,77,77);
+    height: 500%; 
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    
+
+}
+.profile{
+    
+    border-radius:50%;
+    max-height:40%;
+    max-width: 60%;
+    min-width: none;
+    min-height: none;
+    top: 4%;
+    position: relative;
+  
+}
+.fp{
+
+    font-family: var(--ff);
+    font-size: 3vw;
+    color: rgb(212,212,212);
+    position:absolute;
+    left:51%;
+    margin-top: 25%;
+    text-align:center;
+    
+    
+    }
+.grid-container{
+
+    position:relative;
+    margin-top: 30%;
+    left: 26.5%;
+    max-width:67%;
+    display:grid;
+    grid-template-columns:repeat(1, 1fr);
+    gap: 10%;
+    
+    
+    
+}
+.sidebar.close{
+
+    
+}
+
+.grid-item{
+    border-radius: 25px;
+    font-size: 2vw;
+    color:rgb(212,212,212);
+    background-color:rgb(176,148,240);
+    height: 100%;
+    text-align:center;
+    font-family: var(--ff);
+    width: 100%;
+    position: relative;
+    
+
+}
