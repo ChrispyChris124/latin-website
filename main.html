@@ -7,7 +7,9 @@
     <title>Latin Website</title>
     <link rel = "stylesheet" href = "design.css">
     <link rel = "icon" type = "image/x-icon" href ="coloseum.jpg">
-    <script scr ="main.js"></script>
+    <script src ="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -15,7 +17,7 @@
 <nav class = "navbar">
     <div class = "navbar_container">
         <strong>
-        <div class="navbar_logo">Latin Learning Website</div></strong>
+        <div class="navbar_logo">Latin Learning</div></strong>
             <div class = "navbar_toggle" id ="mobile-menu">
 
             </div>
@@ -25,18 +27,71 @@
 </nav>
 
 
-<div class = "sidebar">
-    <div class = "toggle"></div>
-</div>
+<nav class = "sidebar">
+    <header>
+    <div class="header-text">
+        <span class = "websitename">Latin Learning Made Easy</span>   
+        <span class = "user">User</span> <!---Make this change depending on the user's name-->
+    </div>
+    <i class='bx bx-right-arrow-alt toggle'></i>
+</header>
+    <div class="menu-bar">
+        <div class="menu">
+            <ul class="menu-links">
+                <li class="search-bar"> 
+                    <i class='bx bx-search-alt-2 icon'></i>
+                   <input type = "search" placeholder ="Search..."> 
+                </li>
+                <li class="nav-link"> 
+                    <a href="#" class="href">
+                    <i class='bx bx-home icon'></i>
+                    <span class="text nav-text">Home</span>
+                </a>
+                </li>
+
+                <li class="nav-link"> 
+                    <a href="#" class="href">
+                    <i class='bx bxs-edit icon'></i>
+                    <span class="text nav-text">Conjugation Practice</span>
+                </a>
+                </li>
+
+                <li class="nav-link"> 
+                    <a href="#" class="href">
+                        <i class='bx bxs-edit-alt icon' ></i>
+                    <span class="text nav-text">Declension Practice</span>
+                </a>
+                </li>
+
+                <li class="nav-link"> 
+                    <a href="#" class="href">
+                        <i class='bx bxl-wordpress icon'></i>
+                    <span class="text nav-text">Random Word</span>
+                </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="bottom-content">
+            <li class="nav-link"> 
+                <a href="#" class="href">
+                    <i class='bx bx-log-out icon' ></i>
+                <span class="text nav-text">Log out</span>
+            </a>
+            </li>
+
+        </div>
+    </div>
+
+
+</nav>
+
+
     
 
 
-<p1 class = "fp"></p1>
 
-
-<div class = "grid-container">
-    <div class = "grid-item"><br>Verb Conjugation</div>
-</div>
 
 </body>
 
